@@ -14,39 +14,24 @@
 
   <link rel="stylesheet" href="style.css">
   
-  <style>
-    /* Senin Tasarım Kodların */
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-      background-color: #f2f2f7; /* iOS gri arka planı */
-      text-align: center;
-      /* Mobilde sağa sola kaymayı engeller */
-      overflow-x: hidden;
-    }
-    .profil {
-      background: white;
-      padding: 20px;
-      border-radius: 15px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      margin-bottom: 20px;
-    }
-    h1 { font-size: 24px; color: #333; margin-top: 10px; }
-    h2 { margin: 0; color: #007aff; font-size: 20px; } 
-    p { color: #555; margin-top: 5px; }
-  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-<div class="profil">
-  <h2>🎓 Mehmethan Şentürk</h2>
-  <p>Okul No: <strong>241702029</strong></p>
+<div class="header-container">
+  <div class="profil">
+    <div class="avatar">🎓</div>
+    <div class="bilgi">
+      <h2>Mehmethan Şentürk</h2>
+      <p>Okul No: <strong>241702029</strong></p>
+    </div>
+  </div>
 </div>
 
-<h1>📚 Devamsızlık Takibi</h1>
-
-<div id="dersler"></div>
+<div class="container">
+  <h1 class="baslik">Ders Programım</h1>
+  <div id="dersler"></div>
+</div>
 
 <script src="script.js"></script>
 </body>
